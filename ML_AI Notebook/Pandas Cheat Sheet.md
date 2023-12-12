@@ -137,6 +137,7 @@
 - Histogram:
   ```python
   df['column_name'].plot(kind='hist')
+  df.hist(figsize=(15,10))
   ```
 
 - Scatter plot:

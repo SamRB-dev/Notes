@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML_AI Notebook/Seaborn Cheat Sheet.md",
+                "file": "ML_AI Notebook/Pandas Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML_AI Notebook/Seaborn Cheat Sheet.md",
+                "file": "ML_AI Notebook/Pandas Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML_AI Notebook/Seaborn Cheat Sheet.md",
+                "file": "ML_AI Notebook/Pandas Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML_AI Notebook/Seaborn Cheat Sheet.md"
+                "file": "ML_AI Notebook/Pandas Cheat Sheet.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "bd89818c7ae3a5fb",
   "lastOpenFiles": [
+    "ML_AI Notebook/Seaborn Cheat Sheet.md",
     "ML_AI Notebook/Pandas Cheat Sheet.md",
     "ML_AI Notebook/Numpy Cheat Sheet.md",
     "ML_AI Notebook/ML Project Ideas.md",
