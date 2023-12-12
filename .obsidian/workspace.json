@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "fcd99170366cfc98",
+    "type": "split",
+    "children": [
+      {
+        "id": "5dd103d32058a11c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd89818c7ae3a5fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML_AI Notebook/Seaborn Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b48c2c7c4883701e",
+    "type": "split",
+    "children": [
+      {
+        "id": "663ac5e7ca76b2ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbb1fe2e7aaf973c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "127442430fba1431",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9b46fd4fca12013b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8d93214b40be34c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "497247444a780019",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46b40853db327ff5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ML_AI Notebook/Seaborn Cheat Sheet.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3aa6bed4d2e094d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ML_AI Notebook/Seaborn Cheat Sheet.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1f18535e367156da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "66872e57c56270f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ML_AI Notebook/Seaborn Cheat Sheet.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "bd89818c7ae3a5fb",
+  "lastOpenFiles": [
+    "ML_AI Notebook/Pandas Cheat Sheet.md",
+    "ML_AI Notebook/Numpy Cheat Sheet.md",
+    "ML_AI Notebook/ML Project Ideas.md",
+    "ML_AI Notebook/ML Basics.md",
+    "ML_AI Notebook/Math for ML.md",
+    "ML_AI Notebook/Git Cheat Sheet.md",
+    "ML_AI Notebook/F.A.Q.md",
+    "ML_AI Notebook/Exploratory Data Analysis.md",
+    "ML_AI Notebook/CherryTreeNotes.md",
+    "Cybersecurity - HTB/Learning Process.md"
+  ]
+}
