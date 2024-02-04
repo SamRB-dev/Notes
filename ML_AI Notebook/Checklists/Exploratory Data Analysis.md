@@ -1,3 +1,34 @@
+**Useful Articles**:
+- [EDA with Uni/bi/multivariate analysis techniques](https://www.analyticsvidhya.com/blog/2021/04/exploratory-analysis-using-univariate-bivariate-and-multivariate-analysis-techniques/)
+
+#### Handling Missing data
+Handling missing values in data is crucial for the accuracy and reliability of machine learning models. Common techniques include:
+
+1. **Deleting Rows/Columns**: Removing rows with missing values or columns with a high percentage of missing values.
+
+2. **Imputation**: Filling missing values with:
+   - **Mean/Median/Mode**: For numerical data, replace missing values with the mean, median, or mode.
+   - **K-Nearest Neighbors (KNN)**: Impute missing values based on KNN, where values from similar data points are used.
+   - **Regression Imputation**: Use regression models to estimate and fill missing values.
+
+3. **Using Algorithms that Support Missing Values**: Some algorithms can handle missing values internally.
+
+Example Code (Python, Pandas & Scikit-Learn):
+```python
+import pandas as pd
+from sklearn.impute import SimpleImputer
+
+# Example dataset
+data = {'Feature1': [1, 2, None, 4], 'Feature2': [4, None, 6, 8]}
+df = pd.DataFrame(data)
+
+# Mean Imputation
+imputer = SimpleImputer(strategy='mean')
+df_filled = pd.DataFrame(imputer.fit_transform(df), columns=df.columns)
+```
+
+This code demonstrates mean imputation where missing values are replaced with the mean of the respective column. The choice of technique depends on the dataset and the nature of the missing data.
+
 #### Update: GPT-4 :D
 **Prompt**: Hey I want to learn exploratory data analysis for ml and data science. can you make me full tutorial with examples, necessary formulas and step by step process also, as a separate response, a comprehensive checklist to get the full insight from a dataset.
 
@@ -16,7 +47,7 @@ Certainly! Exploratory Data Analysis (EDA) is a critical step in the data scienc
 #### 2. Cleaning the Data
    - **Objective**: Prepare the data for analysis.
    - **Steps**:
-     - Handle missing values (imputation, removal).
+     - Handle missing values (imputation, removal).  [Check This](https://www.analyticsvidhya.com/blog/2021/10/handling-missing-value/)
      - Correct errors and outliers.
      - Normalize and scale the data if necessary.
    - **Formulas/Concepts**: Mean, median, mode, standard deviation, z-score.

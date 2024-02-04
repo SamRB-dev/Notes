@@ -1,8 +1,13 @@
+**New:**
+```python
+	seaborn.heatmap(features.corr(), annot=True, fmt= ".0%")
+```
+
 **Seaborn Basics:**
 
 - Importing Seaborn:
   ```python
-  import seaborn as sns
+import seaborn as sns
   ```
 
 **Data Visualization:**

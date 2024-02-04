@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5dd103d32058a11c",
+        "id": "5d6babd60930513b",
         "type": "tabs",
         "children": [
           {
-            "id": "bd89818c7ae3a5fb",
+            "id": "37cdecde4810c8d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML_AI Notebook/Pandas Cheat Sheet.md",
+                "file": "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 309.5
   },
   "right": {
     "id": "8d93214b40be34c0",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML_AI Notebook/Pandas Cheat Sheet.md",
+                "file": "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML_AI Notebook/Pandas Cheat Sheet.md",
+                "file": "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML_AI Notebook/Pandas Cheat Sheet.md"
+                "file": "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md"
               }
             }
           }
@@ -146,21 +146,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd89818c7ae3a5fb",
+  "active": "37cdecde4810c8d0",
   "lastOpenFiles": [
-    "ML_AI Notebook/Exploratory Data Analysis.md",
-    "ML_AI Notebook/Prompt Engineering.md",
-    "ML_AI Notebook/Pandas Cheat Sheet.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "ML_AI Notebook/Seaborn Cheat Sheet.md",
-    "ML_AI Notebook/Numpy Cheat Sheet.md",
-    "ML_AI Notebook/ML Project Ideas.md",
-    "ML_AI Notebook/ML Basics.md",
-    "ML_AI Notebook/Math for ML.md",
-    "ML_AI Notebook/Git Cheat Sheet.md",
-    "ML_AI Notebook/F.A.Q.md",
-    "ML_AI Notebook/CherryTreeNotes.md",
-    "Cybersecurity - HTB/Learning Process.md"
+    "ML_AI Notebook/Techniques/Outlier Handling.md",
+    "ML_AI Notebook/Techniques/Accuracy Measurement/Classification Report.md",
+    "ML_AI Notebook/Techniques/Accuracy Measurement/Regression Evaluation.md",
+    "ML_AI Notebook/Cheat-Sheets/Seaborn Cheat Sheet.md",
+    "ML_AI Notebook/Techniques/Accuracy Measurement",
+    "ML_AI Notebook/Untitled",
+    "ML_AI Notebook/Projects/Project Ideas - ML-AI-DL.md",
+    "ML_AI Notebook/Projects/ML Project Ideas.md",
+    "ML_AI Notebook/Techniques/Accuracy Measurement/Confusion Matrix.md",
+    "ML_AI Notebook/Models/Decision Tree.md",
+    "ML_AI Notebook/Outlier Detection Techniques.md",
+    "ML_AI Notebook/Models/Logistic Regression.md",
+    "ML_AI Notebook/Mathematics/Statistics.md",
+    "ML_AI Notebook/Techniques",
+    "ML_AI Notebook/Mathematics/General Facts.md",
+    "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
+    "_resources/outlier.png",
+    "ML_AI Notebook/Checklists/Exploratory Data Analysis.md",
+    "ML_AI Notebook/Cheat-Sheets/Pandas Cheat Sheet.md",
+    "ML_AI Notebook/Mathematics/Math for ML.md",
+    "ML_AI Notebook/Mathematics/Probability.md",
+    "ML_AI Notebook/Mathematics/Linear Algebra.md",
+    "_resources/number-space.jpeg",
+    "Cybersecurity - HTB/Networking.md",
+    "Cybersecurity - HTB/Learning Process.md",
+    "_resources/5-6.png",
+    "_resources/5-5.png",
+    "if.md",
+    "ML_AI Notebook/Mathematics/Calculus.md",
+    "ML_AI Notebook/Mathematics/Mathematics.md",
+    "ML_AI Notebook/Cheat-Sheets/Git Cheat Sheet.md",
+    "CherryTreeNotes.md",
+    "ML_AI Notebook/Cheat-Sheets",
+    "ML_AI Notebook/Today I Learned (TIL)/Asymtotes-in-Math.md",
+    "ML_AI Notebook/Mathematics",
+    "ML_AI Notebook/Checklists",
+    "ML_AI Notebook/Projects",
+    "Project Ideas",
+    "ML_AI Notebook/Today I Learned (TIL)",
+    "_resources/Asymtote-graph.png",
+    "ML_AI Notebook/Models"
   ]
 }

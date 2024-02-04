@@ -1,0 +1,1 @@
+Data Gathering - Go through internet vuln archives to get the idea about a software/daemon

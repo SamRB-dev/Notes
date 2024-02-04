@@ -1,0 +1,24 @@
+- [ ] Decide the outcome/goal of the project.
+- [x] Gather the Data.
+- [x] Load the data
+	- [x] Check first few rows
+	- [x] Check last few rows
+- [x] Check basic Statistic - Mean, Median, Mode, Std, Min, Max, percentile
+- [ ] check the distribution numerical and categorical
+	- [ ] Check skewness
+	- [ ] Visualize
+- [x] Handle Missing Values
+	- [x] Drop missing values
+	- [ ] Impute Missing values
+- [ ] Check for duplicate rows
+- [ ] Outlier Detection
+	- [ ] Boxplot
+	- if Normal Distribution
+		- [ ] z-Score - Any data that falls out of 3rd standard deviation.
+	- if Skewed
+		- [ ] Inter Quantile Range (IQL).
+- [ ] Check correlation
+- [ ] Feature Engineering
+- [ ] Model Training
+- [ ] Evaluation
+- [ ] Deployment 

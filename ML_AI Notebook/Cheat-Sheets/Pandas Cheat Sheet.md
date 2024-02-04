@@ -3,6 +3,7 @@
 - Importing Pandas:
   ```python
   import pandas as pd
+  from ydata_profiling import ProfileReport
   ```
 
 **Data Structures:**
@@ -53,6 +54,9 @@
 	
   # List All Unique values and their total counts
   df.value_counts()
+
+  # Change Dtype of a column
+  df['col'] = df['col'].astype('type')
   ```
 
 **Data Selection and Manipulation:**
@@ -119,7 +123,14 @@
   df = df.drop(['Column1','Column2'],axis=1)
 
   # Drop rows with missing values
-	df = df.dropna()
+  df = df.dropna()
+  
+  # Replace missing values
+  df["col"].replace(np.nan, new_val)
+  
+  # Replace other values
+  df["col"].str.replace('old','new')
+
   ```
 
 **Data Visualization:**
