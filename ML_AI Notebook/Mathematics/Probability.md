@@ -97,8 +97,86 @@ The sum of probabilities refers to adding the probabilities of different outcome
 ### Example
 Consider rolling a six-sided die. The probability of each side (1 through 6) landing up is 1/6. The sum of the probabilities for all sides is:
 
-\[ P(1) + P(2) + P(3) + P(4) + P(5) + P(6) = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = 1 \]
+$\[ P(1) + P(2) + P(3) + P(4) + P(5) + P(6) = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = 1 \]$
 
 This sum (1) represents the certainty that one of the six faces will land up.
 
 In the context of probability theory, maintaining the correct sum of probabilities is crucial for the accuracy and reliability of statistical calculations and predictions.
+
+#### **Joint and Disjoint Events in Probability**
+
+**Definition:**
+- **Joint Events**: In probability theory, joint events refer to events that occur together or simultaneously. They represent the intersection of two or more events.
+- **Disjoint Events**: Disjoint events, also known as mutually exclusive events, are events that cannot occur at the same time. If one event happens, the other(s) cannot happen.
+
+**Simple Explanation:**
+- **Joint Events**: Imagine rolling two dice. The event of getting a 3 on the first die and a 4 on the second die is a joint event because it involves both dice simultaneously.
+- **Disjoint Events**: Using the same example, the event of getting a 2 on the first die and a 6 on the second die is disjoint with the event of getting a 3 on the first die and a 4 on the second die because they cannot happen simultaneously.
+
+**Formulas and Representations:**
+- **Joint Probability**: The probability of the intersection of two events A and B is denoted as P(A ∩ B) or P(A and B). If A and B are independent, the joint probability is calculated as the product of their individual probabilities: P(A ∩ B) = P(A) * P(B).
+- **Disjoint Probability**: The probability of the union of two disjoint events A and B is denoted as P(A ∪ B) or P(A or B). For disjoint events, the probability of their union is the sum of their individual probabilities: P(A ∪ B) = P(A) + P(B).
+
+**Use Cases:**
+- **Joint Events**: 
+  - In genetics, the probability of inheriting certain traits from both parents involves joint events.
+  - Weather forecasting may involve joint events, such as the probability of rain and strong winds occurring together.
+- **Disjoint Events**:
+  - In a card game like poker, the probability of getting a straight flush or a full house are disjoint events because you cannot have both simultaneously.
+  - When analyzing outcomes of medical tests, the probability of a positive result for one condition and a positive result for a different condition may be disjoint.
+
+**Mathematical Examples:**
+1. **Joint Probability Example**:
+   - Suppose you flip a fair coin twice. Let A be the event of getting heads on the first flip, and B be the event of getting tails on the second flip.
+     - P(A) = P(B) = 1/2 (since it's a fair coin)
+     - P(A ∩ B) = P(A) * P(B) = (1/2) * (1/2) = 1/4
+
+2. **Disjoint Probability Example**:
+   - Consider rolling a standard six-sided die. Let A be the event of getting an even number (2, 4, or 6), and B be the event of getting an odd number (1, 3, or 5).
+     - P(A) = 3/6 = 1/2 (since there are 3 even numbers out of 6)
+     - P(B) = 3/6 = 1/2 (since there are 3 odd numbers out of 6)
+     - Since A and B are disjoint, P(A ∪ B) = P(A) + P(B) = 1/2 + 1/2 = 1
+
+In summary, joint events involve the simultaneous occurrence of multiple events, while disjoint events are events that cannot occur together. Understanding these concepts is crucial for analyzing probabilities and making informed decisions in various fields.
+
+#### **Independence in Probability**
+
+**Definition:**
+Independence in probability refers to the relationship between two or more events where the occurrence of one event does not affect the probability of the occurrence of the other event(s). In other words, the outcome of one event provides no information about the outcome of the other event(s).
+
+**Simple Explanation:**
+Imagine rolling a fair six-sided die twice. The outcome of the first roll (e.g., rolling a 4) does not influence the outcome of the second roll. Whether you roll a 4, a 3, or any other number on the first roll, the probability of rolling a particular number on the second roll remains the same (1/6).
+
+**Formulas and Representations:**
+- **Independence of Events A and B**: Two events A and B are considered independent if and only if the probability of their intersection (joint probability) equals the product of their individual probabilities:
+  - P(A ∩ B) = P(A) * P(B)
+
+**Use Cases:**
+- **Coin Flips**: The outcome of one coin flip is independent of the outcome of any other coin flip. Whether you get heads or tails on the first flip does not affect the outcome of subsequent flips.
+- **Dice Rolls**: Rolling a fair die multiple times. The outcome of each roll is independent of the outcomes of previous rolls.
+- **Card Draws**: Drawing cards from a well-shuffled deck. The probability of drawing a specific card on one draw does not change based on previous draws, assuming the deck remains well-shuffled.
+
+**Mathematical Examples:**
+- Suppose you flip a fair coin twice. Let A be the event of getting heads on the first flip, and B be the event of getting tails on the second flip.
+  - P(A) = P(B) = 1/2 (since it's a fair coin)
+  - P(A ∩ B) = P(A) * P(B) = (1/2) * (1/2) = 1/4
+  - Since P(A ∩ B) = P(A) * P(B), events A and B are independent.
+
+- Consider rolling a fair six-sided die twice. Let A be the event of getting an odd number (1, 3, or 5) on the first roll, and B be the event of getting an even number (2, 4, or 6) on the second roll.
+  - P(A) = P(B) = 1/2 (since there are 3 odd and 3 even numbers)
+  - P(A ∩ B) = 0 (since an odd number on the first roll ensures an odd number on the second roll, making it impossible for B to occur)
+  - Since P(A ∩ B) = 0 = P(A) * P(B), events A and B are independent.
+
+Understanding independence in probability is essential for making accurate predictions and modeling various real-world scenarios. It allows us to analyze the probability of multiple events occurring together without being influenced by each other.
+
+#### *Conditional Probability*
+**Definition**: If A and B are two events associated with the same sample space of a random experiment, **the conditional probability of event A given that B has occurred is given by P(A/B) = P( A ∩ B)/ P (B)**, provided P(B) ≠ 0.
+
+**Properties of Conditional Probability**: 
+1. Let S be the sample space of an experiment and A be any event. Then $P(S | A) = P(A | A) = 1$.
+2. Let S be the sample space of an experiment and A and B be any two events. Let E be any other event such that P(E) ≠ 0. Then $P((A ⋃ B) | E) = P(A | E) + P(B | E) - P((A ∩ B) | E)$.
+3. $P(A' | B) = 1 - P(A | B)$, where A' is the [complement of the set](https://www.cuemath.com/algebra/complement-of-a-set/) A.
+4. two event A and B are said to be dependent events if one of the conditions is satisfied.
+	- P(A ∩ B) = P(A | B) · P(B) (or)
+	- P(A ∩ B) = P(B | A) · P(A)
+5. two events are said to be independent if $P(A ∩ B) = P(A) · P(B)$. This is also called as multiplication rule of probability.

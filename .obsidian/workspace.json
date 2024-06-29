@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
+                "file": "Cybersecurity - HTB/Linux/File Permissions & sudo groups.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
+                "file": "Cybersecurity - HTB/Linux/File Permissions & sudo groups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
+                "file": "Cybersecurity - HTB/Linux/File Permissions & sudo groups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md"
+                "file": "Cybersecurity - HTB/Linux/File Permissions & sudo groups.md"
               }
             }
           }
@@ -148,46 +148,51 @@
   },
   "active": "37cdecde4810c8d0",
   "lastOpenFiles": [
-    "ML_AI Notebook/Techniques/Outlier Handling.md",
-    "ML_AI Notebook/Techniques/Accuracy Measurement/Classification Report.md",
+    "Cybersecurity - HTB/Networking/Types of Networks.md",
+    "Cybersecurity - HTB/Linux/File Permissions & sudo groups.md",
+    "_resources/2023-09-02_16-04.png",
+    "_resources/2023-06-25_16-51.png",
+    "Cybersecurity - HTB/Networking",
+    "Cybersecurity - HTB/Tools/Nmap.md",
+    "Cybersecurity - HTB/Tools/Metasploit.md",
+    "Cybersecurity - HTB/Linux/Daemons.md",
+    "Cybersecurity - HTB/Tools",
+    "Project Ideas/Clipboard manager with daemon.md",
+    "Cybersecurity - HTB/Linux",
+    "Cybersecurity - HTB/Linux.md",
+    "Project Ideas/Bitlocker Clone.md",
+    "Project Ideas/Bootable usb creator.md",
+    "Cybersecurity - HTB/Cryptography.md",
+    "_resources/Classification-of-the-Modern-Ciphers-Techniques3.jpg",
+    "Cybersecurity - HTB/Learning Process.md",
+    "ML_AI Notebook/Statistics.md",
+    "ML_AI Notebook/Cheat-Sheets/Git Cheat Sheet.md",
+    "ML_AI Notebook/Mathematics/Probability.md",
+    "ML_AI Notebook/Mathematics/Statistics.md",
     "ML_AI Notebook/Techniques/Accuracy Measurement/Regression Evaluation.md",
+    "Project Ideas/Indeed job scrapper.md",
+    "Programming/DSA/Linked List.md",
+    "Programming/Shell Commands.md",
+    "ML_AI Notebook/Techniques/Categorical Encoding.md",
+    "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
     "ML_AI Notebook/Cheat-Sheets/Seaborn Cheat Sheet.md",
+    "ML_AI Notebook/Models/Linear Regression.md",
+    "ML_AI Notebook/Models/Logistic Regression.md",
+    "Project Ideas/Detecting the vulnerable version of a software.md",
+    "if.md",
+    "Programming/DSA",
+    "_resources/qualitative_quantitative_data_a9f675e39f.jpg",
+    "_resources/ML+Cheat+Sheet_2.pdf",
+    "_resources/Bagging-Boosting.png",
+    "Programming",
     "ML_AI Notebook/Techniques/Accuracy Measurement",
     "ML_AI Notebook/Untitled",
-    "ML_AI Notebook/Projects/Project Ideas - ML-AI-DL.md",
-    "ML_AI Notebook/Projects/ML Project Ideas.md",
-    "ML_AI Notebook/Techniques/Accuracy Measurement/Confusion Matrix.md",
-    "ML_AI Notebook/Models/Decision Tree.md",
-    "ML_AI Notebook/Outlier Detection Techniques.md",
-    "ML_AI Notebook/Models/Logistic Regression.md",
-    "ML_AI Notebook/Mathematics/Statistics.md",
     "ML_AI Notebook/Techniques",
-    "ML_AI Notebook/Mathematics/General Facts.md",
-    "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
     "_resources/outlier.png",
-    "ML_AI Notebook/Checklists/Exploratory Data Analysis.md",
-    "ML_AI Notebook/Cheat-Sheets/Pandas Cheat Sheet.md",
-    "ML_AI Notebook/Mathematics/Math for ML.md",
-    "ML_AI Notebook/Mathematics/Probability.md",
-    "ML_AI Notebook/Mathematics/Linear Algebra.md",
     "_resources/number-space.jpeg",
-    "Cybersecurity - HTB/Networking.md",
-    "Cybersecurity - HTB/Learning Process.md",
     "_resources/5-6.png",
     "_resources/5-5.png",
-    "if.md",
-    "ML_AI Notebook/Mathematics/Calculus.md",
-    "ML_AI Notebook/Mathematics/Mathematics.md",
-    "ML_AI Notebook/Cheat-Sheets/Git Cheat Sheet.md",
-    "CherryTreeNotes.md",
     "ML_AI Notebook/Cheat-Sheets",
-    "ML_AI Notebook/Today I Learned (TIL)/Asymtotes-in-Math.md",
-    "ML_AI Notebook/Mathematics",
-    "ML_AI Notebook/Checklists",
-    "ML_AI Notebook/Projects",
-    "Project Ideas",
-    "ML_AI Notebook/Today I Learned (TIL)",
-    "_resources/Asymtote-graph.png",
-    "ML_AI Notebook/Models"
+    "_resources/Asymtote-graph.png"
   ]
 }

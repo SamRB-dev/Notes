@@ -2,9 +2,21 @@
 ```python
 	seaborn.heatmap(features.corr(), annot=True, fmt= ".0%")
 ```
+**Generate Multi plot grid**:
+```python
+fig, axs = plt.subplots(nrows=4, ncols=2, figsize=(16,9))
+axs = axs.flatten()
+for idx,column in enumerate(list):
+	seaborn.boxplot(data=df[column], ax=axs[idx])
+	axs[idx].set_title(column)
+plt.tight_layout()
+```
+**Select columns of specific types**:
+```python
+numeric_col = df.select_dtypes(exclude="object").columns.tolist()
+```
 
 **Seaborn Basics:**
-
 - Importing Seaborn:
   ```python
 import seaborn as sns

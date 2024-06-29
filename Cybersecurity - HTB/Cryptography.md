@@ -1,0 +1,1 @@
+![Types of ciphers](/_resources/Classification-of-the-Modern-Ciphers-Techniques3.jpg)

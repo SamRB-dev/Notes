@@ -57,6 +57,9 @@
 
   # Change Dtype of a column
   df['col'] = df['col'].astype('type')
+
+  # Check for duplicates
+  df.duplicated().sum()
   ```
 
 **Data Selection and Manipulation:**

@@ -1,0 +1,1 @@
+scrap job postings from specific search

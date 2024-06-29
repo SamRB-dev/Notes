@@ -1,7 +1,10 @@
+**Loss function:** Used when we refer to the error for a single training example.
+
+**Cost function:** Used to refer to an average of the loss functions over an entire training data.
 Evaluating the performance of regression models involves several key metrics that capture the difference between the predicted values and the actual values from the data. Here are the most commonly used metrics:
 
 ### 1. Mean Absolute Error (MAE)
-- **Definition**: The average of the absolute differences between the predicted values and the actual values. It gives an idea of how wrong the predictions were.
+- **Definition**: ==The== average of the absolute differences between the predicted values and the actual values. It gives an idea of how wrong the predictions were.
 - **Formula**: 
   $\[ MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| \]$
 - **Math Example**:

@@ -1,4 +1,5 @@
-**Prompt**: Create detail oriented notes on the following statistical concepts with definition, simple explanation, formulas and their representations, use cases, pros and cons. For each concepts there should be at least two mathematical examples with step by step process.
+**Prompt**: as a statistician, Create detail oriented notes on the following statistical concepts with definition, simple explanation, formulas and their representations, use cases, pros and cons and code example in python, rust and c++. For each concepts there should be at least two mathematical examples with step by step process.
+**Prompt Type**: Role Prompting
 ### 1. Mean (Arithmetic Mean)
 
 **Definition**: The mean is the average of a set of numbers, found by dividing the sum of all numbers in the set by the count of numbers.
@@ -134,7 +135,7 @@ Creating detailed notes on the specified statistical concepts:
 
 ### 2. Standard Deviation
 - **Definition**: A measure of the amount of variation or dispersion in a set of values.
-- **Formula**: $\( \sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \bar{x})^2} \)$
+- **Formula**: For Population, $\( \sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \bar{x})^2} \)$
 - **Use Cases**: Assessing the spread of a dataset; high standard deviation indicates data is spread out.
 - **Pros and Cons**: Provides a clear measure of spread, but sensitive to outliers.
 - **Example**:
@@ -145,7 +146,7 @@ Creating detailed notes on the specified statistical concepts:
 
 ### 3. Variance
 - **Definition**: The average of the squared deviations from the Mean.
-- **Formula**: $\( \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \bar{x})^2}{N} \)$
+- **Formula**: Population, $\( \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \bar{x})^2}{N} \)$
 - **Use Cases**: Quantifying the spread of data points.
 - **Pros and Cons**: Gives a squared dimension, which can be hard to interpret.
 - **Example**:

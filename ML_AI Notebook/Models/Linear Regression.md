@@ -4,15 +4,15 @@ Linear regression is a statistical method used for modeling the relationship bet
 
 - \( y \): Dependent variable.
 - \( x \): Independent variable.
-- \( \beta_0 \): Intercept.
-- \( \beta_1 \): Slope coefficient.
+- \($\beta_0$ \): Intercept.
+- \( $\beta_1$ \): Slope coefficient.
 - \( \epsilon ϵ\): Error term.
 
 #### Simple Linear Regression
 
 In simple linear regression, there is one independent variable (\( x \)), so the formula becomes:
 
-\[ y = \beta_0 + \beta_1 x \]
+$\[ y = \beta_0 + \beta_1 x \]$
 
 Graphically, this is represented as a straight line where \( \beta_0 \) is the y-intercept, and \( \beta_1 \) is the slope.
 
@@ -83,3 +83,6 @@ These papers and books provide a comprehensive understanding of linear regressio
 - "An Introduction to Statistical Learning" by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani.
 - "The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
 - Python documentation for sklearn.linear_model.LinearRegression.
+
+
+#### Implementation from Scratch
