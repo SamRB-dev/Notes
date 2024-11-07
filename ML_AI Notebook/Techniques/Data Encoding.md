@@ -1,3 +1,8 @@
+# Update
+[Medium](https://medium.com/anolytics/all-you-need-to-know-about-encoding-techniques-b3a0af68338b)
+
+----
+
 **Prompt**: as a data scientist, make detail oriented notes on categorical variable encoding techniques in the following format. 
 **technique**
 - definition>: ...... 

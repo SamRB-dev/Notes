@@ -1,3 +1,6 @@
+```python
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+```
 #### Definition
 A Confusion Matrix is a performance measurement tool for classification problems in machine learning. It is a table layout that allows visualization of the performance of an algorithm, typically a supervised learning one.
 

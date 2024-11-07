@@ -13,10 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cybersecurity - HTB/Linux/File Permissions & sudo groups.md",
+                "file": "ML_AI Notebook/Techniques/Imbalanced Data.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Imbalanced Data"
+            }
+          },
+          {
+            "id": "b447947af705f5c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML_AI Notebook/Checklists/Exploratory Data Analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Exploratory Data Analysis"
             }
           }
         ]
@@ -39,7 +55,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +72,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +82,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cybersecurity - HTB/Linux/File Permissions & sudo groups.md",
+                "file": "ML_AI Notebook/Models/K_Nearest_Neighbour (KNN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +115,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for K_Nearest_Neighbour (KNN)"
             }
           },
           {
@@ -102,10 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cybersecurity - HTB/Linux/File Permissions & sudo groups.md",
+                "file": "ML_AI Notebook/Models/K_Nearest_Neighbour (KNN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from K_Nearest_Neighbour (KNN)"
             }
           },
           {
@@ -116,7 +142,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cybersecurity - HTB/Linux/File Permissions & sudo groups.md"
-              }
+                "file": "ML_AI Notebook/Models/K_Nearest_Neighbour (KNN).md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of K_Nearest_Neighbour (KNN)"
             }
           }
         ]
@@ -138,61 +168,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "random-note:Open random note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "37cdecde4810c8d0",
   "lastOpenFiles": [
-    "Cybersecurity - HTB/Networking/Types of Networks.md",
+    "ML_AI Notebook/Techniques/Accuracy Measurement/Classification Report.md",
+    "ML_AI Notebook/Techniques/Accuracy Measurement/Confusion Matrix.md",
+    "ML_AI Notebook/Techniques/Data Encoding.md",
+    "ML_AI Notebook/Cheat-Sheets/Models in SKLEARN.md",
+    "ML_AI Notebook/Models/K_Nearest_Neighbour (KNN).md",
+    "ML_AI Notebook/Cheat-Sheets/Sklearn Cheat Sheet.md",
+    "ML_AI Notebook/Models/Naive Bayes.md",
+    "ML_AI Notebook/Cheat-Sheets/Pandas Cheat Sheet.md",
+    "Project Ideas/Detecting the vulnerable version of a software.md",
+    "ML_AI Notebook/Mathematics/Mathematics.md",
     "Cybersecurity - HTB/Linux/File Permissions & sudo groups.md",
+    "Cybersecurity - HTB/Cryptography.md",
+    "Project Ideas/Indeed job scrapper.md",
+    "ML_AI Notebook/Techniques/Imputation.md",
+    "ML_AI Notebook/Techniques/Imbalanced Data.md",
+    "_resources/30381Imputation Techniques types.JPG",
+    "ML_AI Notebook/Techniques/Bagging & Boosting.md",
+    "ML_AI Notebook/Cheat-Sheets/Seaborn Cheat Sheet.md",
+    "ML_AI Notebook/Checklists/Exploratory Data Analysis.md",
+    "ML_AI Notebook/Cheat-Sheets/ML Cheat Sheet.md",
+    "ML_AI Notebook/Cheat-Sheets/Git Cheat Sheet.md",
+    "ML_AI Notebook/Cheat-Sheets/Numpy Cheat Sheet.md",
+    "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
+    "ML_AI Notebook/Deep Learning/Intro.md",
+    "ML_AI Notebook/Mathematics/Math for ML.md",
+    "Images/mfOlDR6.png",
+    "Images",
+    "Project Ideas/Bootable usb creator.md",
+    "ML_AI Notebook/Models/Random Forest.md",
+    "ML_AI Notebook/Deep Learning",
+    "Programming/frameworks",
+    "Programming/Linux",
     "_resources/2023-09-02_16-04.png",
     "_resources/2023-06-25_16-51.png",
     "Cybersecurity - HTB/Networking",
-    "Cybersecurity - HTB/Tools/Nmap.md",
-    "Cybersecurity - HTB/Tools/Metasploit.md",
-    "Cybersecurity - HTB/Linux/Daemons.md",
     "Cybersecurity - HTB/Tools",
-    "Project Ideas/Clipboard manager with daemon.md",
     "Cybersecurity - HTB/Linux",
-    "Cybersecurity - HTB/Linux.md",
-    "Project Ideas/Bitlocker Clone.md",
-    "Project Ideas/Bootable usb creator.md",
-    "Cybersecurity - HTB/Cryptography.md",
     "_resources/Classification-of-the-Modern-Ciphers-Techniques3.jpg",
-    "Cybersecurity - HTB/Learning Process.md",
-    "ML_AI Notebook/Statistics.md",
-    "ML_AI Notebook/Cheat-Sheets/Git Cheat Sheet.md",
-    "ML_AI Notebook/Mathematics/Probability.md",
-    "ML_AI Notebook/Mathematics/Statistics.md",
-    "ML_AI Notebook/Techniques/Accuracy Measurement/Regression Evaluation.md",
-    "Project Ideas/Indeed job scrapper.md",
-    "Programming/DSA/Linked List.md",
-    "Programming/Shell Commands.md",
-    "ML_AI Notebook/Techniques/Categorical Encoding.md",
-    "ML_AI Notebook/Checklists/Data Preparation Checklist for ML.md",
-    "ML_AI Notebook/Cheat-Sheets/Seaborn Cheat Sheet.md",
-    "ML_AI Notebook/Models/Linear Regression.md",
-    "ML_AI Notebook/Models/Logistic Regression.md",
-    "Project Ideas/Detecting the vulnerable version of a software.md",
-    "if.md",
     "Programming/DSA",
     "_resources/qualitative_quantitative_data_a9f675e39f.jpg",
     "_resources/ML+Cheat+Sheet_2.pdf",
     "_resources/Bagging-Boosting.png",
     "Programming",
-    "ML_AI Notebook/Techniques/Accuracy Measurement",
-    "ML_AI Notebook/Untitled",
-    "ML_AI Notebook/Techniques",
     "_resources/outlier.png",
     "_resources/number-space.jpeg",
-    "_resources/5-6.png",
-    "_resources/5-5.png",
-    "ML_AI Notebook/Cheat-Sheets",
-    "_resources/Asymtote-graph.png"
+    "_resources/5-6.png"
   ]
 }
