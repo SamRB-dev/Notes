@@ -10,4 +10,5 @@
 - Onlyoffice
 - fightcade
 - kde connect
-- 
+- fzf
+- flameshot
